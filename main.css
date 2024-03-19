@@ -1,0 +1,21 @@
+
+p {
+
+    color: darkblue;
+}
+
+
+.red_paragraf {
+
+    color: red;
+}
+
+.genel_degisim {
+
+    color: green;
+    font-family: verdana;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+}
