@@ -1,0 +1,90 @@
+
+<!-- HTML Block Inline Elementleri
+ 
+
+The <div> element is a block-level and is often used as a container for other HTML elements (p etiketi de dahil edilir.)
+The <span> element is an inline container used to mark up a part of a text, or a part of a document
+
+
+
+Div kullanım alanları ve şekilleri
+
+ Lorem Ipsum <div>I am a div</div> dolor sit amet. 
+
+ Ortalama
+ If you have a <div> element that is not 100% wide, and you want to center-align it, set the CSS margin property to auto.
+
+ <style>
+div {
+  width:300px;
+  margin:auto;
+}
+</style> 
+
+
+Float ile div elementlerini hizzalama
+
+The CSS float property was not originally meant to align <div> elements side-by-side, but has been used for this purpose for many years.
+
+The CSS float property is used for positioning and formatting content and allow elements float next to each other instead of on top of each other.
+
+Inline-block: aradaki line kaldırır
+
+The CSS Flexbox Layout Module: div side by side without float or anything 
+
+The CSS Grid Layout Module (kapsayıcı div ister)
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+</style>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Block</title>
+
+  <style>
+
+  .container {
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+  }
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+  <div style="background-color:steelblue;color:white;padding:20px;
+  width: 300px; margin: auto;" >
+    <h2>London</h2>
+    <p>London is the <span style="color: red; font-size: 30px;">capital</span> city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  </div> 
+
+  <div style="background-color:purple;color:white;padding:20px;
+  width: 300px; margin: auto;">
+    <h2>London</h2>
+    <p>London is the <span style="color: red; font-size: 30px;">capital</span> city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  </div> 
+
+  <div style="background-color:green;color:white;padding:20px;
+  width: 300px; margin: auto;">
+    <h2>London</h2>
+    <p>London is the <span style="color: red; font-size: 30px;">capital</span> city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>

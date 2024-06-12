@@ -1,0 +1,58 @@
+
+
+<!-- HTML Classes & IDs-->
+
+<!-- 
+
+Class : css düzenlemeleri için
+
+id: css düzenlemeleri, sayfa içi linkleme, javascript için 
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .line {
+
+            color: steelblue;
+        }
+
+
+        #line2 {
+
+            color: purple;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <p class="line"> Bugün güzel şeyler olacak.</p>
+    <p id="line2"> Arabalar hızlı gider.</p>
+
+    <hr>
+
+    <h1 id="button"> En İyi Yazılım Kanalı: </h1>
+    <button onclick="get_result()">Cevabı Göster</button>
+
+    
+<script>
+
+    function get_result () {
+        document.getElementById("button").innerHTML = "Merhaba Yazılım :)"
+    }
+</script>
+
+</body>
+</html>
